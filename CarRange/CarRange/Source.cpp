@@ -33,11 +33,9 @@ int main()
 		cin >> milesPerGallon;
 
 	//	Calculate the car's range and assign it to the variable range
-		range = tankCapacity / milesPerGallon;
+		range = tankCapacity * milesPerGallon;
 	//	Output the cars range as well as what the user ented.
-		cout << "your cars range is ";
-		cout << range;
-		cout << "\n";
+		cout << "your cars range is " << range << " miles\n";
 		system("pause");
 	//Closing program statements
 	return 0;
